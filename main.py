@@ -3,8 +3,8 @@ from views import *
 
 password_guess = st.text_input('What is the password?',type='password')
 
-if password_guess != st.secrets['password']:
-    st.stop()
+#if password_guess != st.secrets['password']:
+#    st.stop()
 
 c1,c2,c3,c4,c5 = st.columns(5)
 with c3:
